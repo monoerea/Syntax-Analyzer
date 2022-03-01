@@ -1,0 +1,81 @@
+1 	 INTEGER 
+1.0 	 FLOAT 
+true 	 RESERVED_WORD 
+false 	 RESERVED_WORD 
+'a' 	 CHARACTER 
+cBind 	 KEYWORD 
+concat 	 KEYWORD 
+dataframe 	 KEYWORD 
+get 	 KEYWORD 
+input 	 KEYWORD 
+list 	 KEYWORD 
+rBind 	 KEYWORD 
+set 	 KEYWORD 
+show 	 KEYWORD 
+bool 	 RESERVED_WORD 
+break 	 RESERVED_WORD 
+byte 	 RESERVED_WORD 
+case 	 RESERVED_WORD 
+char 	 RESERVED_WORD 
+const 	 RESERVED_WORD 
+default 	 RESERVED_WORD 
+do 	 KEYWORD 
+double 	 RESERVED_WORD 
+else 	 KEYWORD 
+false 	 RESERVED_WORD 
+float 	 RESERVED_WORD 
+for 	 KEYWORD 
+if 	 KEYWORD 
+int 	 RESERVED_WORD 
+long 	 RESERVED_WORD 
+return 	 RESERVED_WORD 
+string 	 RESERVED_WORD 
+switch 	 KEYWORD 
+true 	 RESERVED_WORD 
+while 	 KEYWORD 
+void 	 RESERVED_WORD 
++ 	  
+- 	  
+* 	  
+/ 	  
+% 	  
+// 	  
+^ 	  
+== 	 RELATIONAL_OP 
+< 	 RELATIONAL_OP 
+> 	 RELATIONAL_OP 
+& 	 RELATIONAL_OP 
+>= 	 RELATIONAL_OP 
+<= 	 RELATIONAL_OP 
+! 	 BOOLEAN_OP 
+&& 	 BOOLEAN_OP 
+|| 	 BOOLEAN_OP 
+/*cOmMeNt*/ 	 COMMENT 
+( 	 LEFT_PAREN 
+) 	 RIGHT_PAREN 
+[ 	 LEFT_SQRB 
+] 	 RIGHT_SQRB 
+{ 	 LEFT_CURB 
+} 	 RIGHT_CURB 
+; 	 SEMICOLON 
+, 	 COMMA 
+: 	 COLON 
+' 	 SNGLQ 
+" 	 DBLQ 
+1num 	 INVALID_IDENTIFIER 
+num_ 	 INVALID_IDENTIFIER 
+_num 	 INVALID_IDENTIFIER 
+@ 	 OTHER_SYMBOLS 
+# 	 OTHER_SYMBOLS 
+$ 	 OTHER_SYMBOLS 
+` 	 OTHER_SYMBOLS 
+? 	 OTHER_SYMBOLS 
+\u\ 	 SET_OP 
+\c\ 	 SET_OP 
+\-\ 	 SET_OP 
+\i\ 	 SET_OP 
+\x\ 	 SET_OP 
+the 	 NOISE_WORD 
+finally 	 NOISE_WORD 
+31ria 	 INVALID_IDENTIFIER 
+75.5.5 	 INVALID_IDENTIFIER 
