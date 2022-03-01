@@ -45,9 +45,17 @@ void parser() {
 		return;
 	}
 	
-	while (fscanf(opener, "%s %s", allChar) == 1) {
+	/*while (fscanf(opener, "%s %s", allChar) == 1) {
 		printf("%s", allChar);
-	}
+	}*/
+	  else
+    {
+        //4
+        while ((charLex = fgetc(opener)) != EOF)
+        {
+            printf("%c", charLex);
+        }
+    }
 	
 	// fclose(opener);
 	// opener = fopen("Parse.txt", "w");
